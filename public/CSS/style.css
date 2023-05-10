@@ -1,5 +1,99 @@
 body{
-    background-color: #EAC926;
     font-family: "roboto", sans-serif;
+    font-size: 12px;
 }
 
+header{
+    background-color: #EAC926;
+}
+
+header img.logo{
+    width: 500px;
+}
+
+header div.buscador p.input{
+    background-color: white;
+    border: solid 1px black;
+    color: #666;
+}
+
+header div.buscador div.lupa i{
+    background-color: white;
+    border: solid 1px black;
+    color: #666;
+}
+
+header p {
+    text-align: center;
+}
+
+header p.input {
+    text-align: left;
+}
+
+header nav ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #000; 
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header div.burger-menu i{
+    color: #fff;
+    background-color: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+header div.burger-menu{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+main section h3{
+    font-size: 24px;
+}
+
+main section article p.precio{
+    font-size: 18px;
+}
+
+main section article p.desc{
+    font-size: 16px;
+}
+
+main section article h4{
+    font-size: 16px;
+}
+
+main section article img{
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer article p.cp{
+    text-align: left;
+    color: #666;
+}
+
+footer article{
+    line-height: 20px;
+}
+
+footer article i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
