@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "roboto", sans-serif;
     font-size: 12px;
@@ -7,8 +13,22 @@ header{
     background-color: #EAC926;
 }
 
-header img.logo{
-    width: 200px;
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+.buscador {
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
 
 header div.buscador p.input{
@@ -51,9 +71,12 @@ header nav ul li{
     padding: 0;
 }
 
-/*header nav ul {
+header nav ul {
     margin-bottom: 0px;
-}*/
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
 
 header div.burger-menu i{
     color: #fff;
@@ -73,7 +96,7 @@ header div.burger-menu{
 }
 
 main{
-    text-align: center;
+    margin: 0 auto;
     width: 90vw;
 }
 
@@ -81,16 +104,22 @@ main section article{
     margin-bottom: 10px;
 }
 
+main section article img {
+    width: 100;
+}
+
 main section h3{
     font-size: 24px;
 }
 
-main section article p.precio{
+.precio{
     font-size: 18px;
+    width: 30%;
 }
 
-main section article p.desc{
+.desc{
     font-size: 16px;
+    width: 70%;
 }
 
 main section article h4{
@@ -104,19 +133,25 @@ main section article img{
 .info-article {
     border-top: solid 1px #ebebeb;
     padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.circulo-verde {
+main section article div i{
     width: 30px;
     height: 30px;
     border: solid 1px #39b54a;
-    border-radius: 100%;
+    border-radius: 50%;
     color: #39b54a;
-    padding-top: 14px;
-    padding-left: 9px;
-    padding-right: 8px;
-    margin: auto;
+    padding: 5px;
     font-size: 16px;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    right: 20px;
+    top: -15px;
 }
 
 .desc-prod {
@@ -144,11 +179,17 @@ footer article i{
 }
 
 @media (min-width: 361px){
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .desc-prod {
         display: block;
     }
     main section article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
     }
     .main-header-top-bar {
         display: flex;
@@ -175,7 +216,9 @@ footer article i{
 }
 
 @media (min-width: 769px) {
-    
+    main section article {
+        width: 22.5%;
+    }
 }
 
 @media (min-width: 1200px) {
