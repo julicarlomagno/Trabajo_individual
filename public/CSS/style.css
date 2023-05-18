@@ -178,6 +178,57 @@ footer article i{
     margin-bottom: 10px;
 }
 
+#formulario-registro {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+form div {
+    margin-bottom: 10px;
+    border-radius: 5%;
+    width: 100%;
+}
+
+.text-field{
+    padding: 5px;
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: column;
+}
+
+.botonForm {
+    width: 40%;
+}
+
+.botonSubmit {
+    background-color: green;
+    color: #fff;
+}
+
+.botonReset{
+    background-color: red;
+    color: #fff;
+}
+
+.botonIngreso {
+    background-color: #1259c3;
+    color: #fff;
+}
+
+.titulos {
+    margin-bottom: 5px;
+}
+
 @media (min-width: 361px){
     .productos{
         display: flex;
