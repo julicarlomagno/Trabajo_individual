@@ -46,6 +46,7 @@ header div.buscador div.lupa i{
     background-color: white;
     border: solid 1px black;
     color: #666;
+    font-size: 15px;
 }
 
 header input {
@@ -71,6 +72,10 @@ header nav ul li{
 .left-navbar, .right-navbar {
     margin: 0;
     padding: 0;
+}
+
+.left-navbar {
+    margin-left: 10px;
 }
 
 header nav ul {
