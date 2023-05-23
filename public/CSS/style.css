@@ -11,6 +11,9 @@ body{
 
 header{
     background-color: #EAC926;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .main-header-top-bar {
@@ -93,6 +96,7 @@ header div.burger-menu{
 
 .banner-img{
     width: 100vw;
+    margin-top: 170px;
 }
 
 main{
@@ -263,6 +267,9 @@ form div {
     }
     header div.burger-menu {
         display: none;
+    }
+    .banner-img {
+        margin-top: 190px;
     }
 }
 
